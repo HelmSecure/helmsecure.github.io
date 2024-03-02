@@ -1,0 +1,44 @@
+.body {
+  background-color: #f2f2f2;
+}
+
+.image {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-2, .section {
+  text-align: center;
+}
+
+.paragraph {
+  max-width: 800px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0 #000;
+  border-radius: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  font-family: Bolton, sans-serif;
+  font-size: 16px;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.section-2 {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+@font-face {
+  font-family: 'Bolton';
+  src: url('../fonts/Bolton-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
